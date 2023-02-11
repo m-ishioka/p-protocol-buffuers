@@ -1,0 +1,11 @@
+{
+  "version": "1.0.01",
+	"name": "@m-ishioka/p-protocol-buffuers",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/m-ishioka/p-protocol-buffuers.git"
+	},
+  "publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	}
+}
