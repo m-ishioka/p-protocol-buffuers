@@ -50,7 +50,7 @@ jobs:
         # 全てのstepsから参照できる
         env:
           # 最低限の権限で実行する
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_WORKFLOW_TOKEN }}
 
   publish:
     name: publish
